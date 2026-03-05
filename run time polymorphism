@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+class Add
+{
+    public:
+    void show(int a,int b)
+    {
+        cout<<"Addition : "<<a+b;
+    }
+};
+class Sub
+{
+    public:
+    void show(int a,int b)
+    {
+        cout<<"\n Substractor : "<<a-b;
+    }
+};
+class Mul
+{
+    public:
+    void show (int a ,int b)
+    {
+        cout<<" \n Multiplication : "<<a*b;
+        
+    }
+};
+int main()
+{
+    Add a;
+    Sub s;
+    Mul m;
+    a.show(7,9);
+    s.show(9,3);
+    m.show(9,2);
+}

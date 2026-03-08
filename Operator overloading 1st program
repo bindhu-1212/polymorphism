@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+class Person
+{
+    private:
+    int no1,no2;
+    public: 
+    void set(int a, int b)
+    {
+        no1 = a;
+        no2 = b;
+    }
+    int operator++()
+    {
+        int no3 = no1+ no2;
+        cout << no3;
+    }
+};
+int main()
+{
+    Person p1;
+    p1.set(4, 8);
+   ++p1;
+}

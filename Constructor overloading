@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Myclass 
+{
+    private:
+    int no1,no2;
+    public:
+    Myclass() :no1(0),no2(0) {}
+    
+    Myclass(int a,int b) : no1(a),no2(b)
+    { 
+        int no3= no1+no2;
+        cout<<no3 ;
+}};
+int main()
+{
+    Myclass c1;
+    Myclass c2(7,5);
+}

@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Myclass 
+{
+    public:
+    void mul(int a,int b)
+    {
+        cout<<"Value = "<<a*b;
+    }
+    void mul(int a,int b,int c)
+    {
+        cout<<" \nValue = "<<a*b*c;
+    }
+    void mul(double a,double b)
+    {
+        cout<<"\nValue = "<<a*b;
+    }
+    void mul(float a,float b)
+    {
+        cout<<" \nValue = "<<a*b;
+    }
+    void mul(long a,long b)
+    {
+        cout<<"\nValue = "<<a*b;
+    }
+};
+int main()
+{
+    Myclass c1;
+    c1.mul(7,6);
+    c1.mul(7,6,5);
+    c1.mul(5.99,8.566);
+    c1.mul(6.8f,6.2f);
+    c1.mul(88771,5668);
+}
+    
